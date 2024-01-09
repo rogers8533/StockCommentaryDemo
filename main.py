@@ -5,7 +5,7 @@ from datetime import datetime
 import language_tool_python
 
 # Set your OpenAI API key here
-openai.api_key = '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'
+openai.api_key = 'PRIVATE KEY HERE'
 
 # Global variable to store the commentary
 draft_commentary = ""
