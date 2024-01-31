@@ -34,7 +34,7 @@ def generate_commentary(stock_symbol, start_date, end_date):
         prompt += f"- Cash: ${stock_info['cash']:,}\n"
 
     response = openai.Completion.create(
-        engine="text-davinci-003",
+        engine="gpt-3.5-turbo-instruct",
         prompt=prompt,
         max_tokens=4000
     )
